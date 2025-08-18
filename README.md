@@ -8,3 +8,4 @@ Simply fork this repo and (optionally) make a [repo template](https://docs.githu
 ## Notes about syncing to GitHub
 - All base Obsidian options are configured as default, but some config files will not be synced - particularly the Workspaces and Editor-specific settings that would become apparent between desktop and mobile apps.
 - Inside the obsidian-git settings, some template values will need to be filled in - namely the hostname and author's username and email.
+- Inside `.gitattributes` the EOL is set to LF and LFS filters are included
