@@ -1,13 +1,17 @@
 {
-  "commitMessage": "sync @{{hostname}}: (edit page)",
+  "commitMessage": "\"sync §{{hostname}}: (edit page)\"",
+  "autoCommitMessage": "\"§{{hostname}}: sync {{date}} (auto)\"",
+  "commitMessageScript": "",
   "commitDateFormat": "YY-MMDD-dd@hhmma",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
+  "autoCommitOnlyStaged": false,
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
+  "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
@@ -54,6 +58,5 @@
     "gutterSpacingFallbackLength": 5,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
-  },
-  "autoCommitMessage": "@{{hostname}}: sync {{date}} (auto)"
+  }
 }
